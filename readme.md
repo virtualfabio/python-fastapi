@@ -1,6 +1,12 @@
 git init
 git config user.email "virtualfabio@gmail.com"
 git config user.name "Fabio FS"
+git add .
+git status
+git commit -m "Projeto para deploy"
+git branch -M main
+git remote add origin https://github.com/virtualfabio/python-fastapi.git
+git push -u origin main
 
 # mkvirtualenv vsecao07 -p python3.10
 
@@ -17,10 +23,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import secrets
 >>> token: str = secrets.token_urlsafe(32)
 >>> token
-'ciIqKZgIYekxZq9FMhNzVTrZEyms8vse73T7hmqYJ2M'
+'ciIqKZxxxxxxxxxxxxxxxxx'
 ///Copia o token gerado para colocar no configs.py........
 #
-
-# 
-
-# 
